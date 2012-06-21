@@ -12,10 +12,7 @@
     <![endif]-->
 
     <!-- Basic -->
-    <!--
     <script src="js/vendor/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="js/vendor/modernizr.js" type="text/javascript" charset="utf-8"></script>
-    -->
 
     <!-- Maps: CartoDB + Google Maps v3 -->
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
@@ -26,10 +23,11 @@
     <link  href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css" rel="stylesheet" type="text/css" />
     <link  href="css/vendor/cartodb-gmapsv3.css" rel="stylesheet" type="text/css">
 
-    <script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/example-01.js" type="text/javascript" charset="utf-8"></script>
 
   </head>
-  <body onload="init();">
+  <body id="example-01" onload="init();">
+    <input type="range" class="distance" min="0" max="5000000" step="100000" value="300000" />
     <div id="map"></div>
   </body>
 </html>

@@ -10,3 +10,15 @@
   height: 100%;
 }
 
+// Example 01
+#example-01 {
+  input[type="range"] {
+    position:absolute;
+    width: 300px;
+    top: 10px;
+    left: 50%;
+    margin-left: -150px;
+    z-index:100;
+  }
+}
+
