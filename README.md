@@ -1,2 +1,2 @@
-cartodb-gmaps-v3-examples
-=========================
+quick-quick-html
+================
